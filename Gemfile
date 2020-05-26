@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0.1'
+gem 'rails', '~> 6.0.3'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
@@ -42,7 +42,7 @@ gem 'bulma-rails', '~> 0.8.0'
 gem 'simple_form', '~> 5.0', '>= 5.0.1'
 
 gem 'eventmachine', '~> 1.2', '>= 1.2.7'
-gem 'activesupport', '~> 6.0', '>= 6.0.1'
+gem 'activesupport', '~> 6.0'
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
